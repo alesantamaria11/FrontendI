@@ -1,0 +1,33 @@
+body {
+    font-family: 'Prompt', sans-serif;
+}
+[href="sobremi.html"] {
+    color: black;
+}
+#header {
+    text-align: center;
+    background-image: url('https://ovacen.com/wp-content/uploads/2021/01/visibilidad-en-linkedin.jpg');
+}
+.Nombre {
+    text-align: center;
+    background-color: rgba(222, 237, 241, 0.911);
+}
+h1 {
+    text-align: center;
+    background-color: rgba(222, 237, 241, 0.911);
+}
+.header2 {
+    background-color: rgba(222, 237, 241, 0.911); color: black;
+}
+h2,h3 {
+    background-color: rgb(62, 204, 185); color: black;
+}
+.header3 {
+    background-color: rgba(222, 237, 241, 0.911); color: black;
+}
+#footer {
+    text-align: center; background-color: rgb(62, 204, 185);
+}
+[href="index.html"] {
+    color: black;
+}
