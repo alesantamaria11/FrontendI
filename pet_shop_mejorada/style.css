@@ -1,0 +1,66 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.header {
+    background-color: black; color: white; width: 1024px; height: 20px;
+}
+.Logo {
+    background-color: #F0A83E ; position: absolute;
+    width: 1024px;
+    height: 62px;
+}
+[href] {
+    color: black;
+}
+.slide {
+    background-image: url('img/bowl-y-huesitos.png');
+    background-position: absolute; width: 1025px; height: 409px;
+}
+#slide1 {
+    background-color: #FFFFFF; border-radius: 10px; text-align: center; font-weight: 400; font-size: 30px;
+    position: absolute; width: 345px; height: 35px; left: 658px; top: 246px;
+}
+#slide2 {
+    color: #3C2313; text-align: center; font-weight: 400; font-size: 16px;
+    position: absolute; width: 190px; height: 19px; left: 740px; top: 303px;
+}
+#slide3 {
+    background-color: #F0A83E; border-radius: 5px;
+    position: absolute;  width: 141px; height: 49px; left: 767px; top: 334px;
+    color: #FFFFFF; font-weight: 400; font-size: 16px; text-align: center;
+}
+.huella {
+    text-align: center;
+}
+.destacados {
+    text-align: center; font-weight: bold; font-size: 40px; line-height: 47px;
+}
+.destacados>span {
+    color: #666666; font-weight: normal; font-size: 15px; line-height: 18px;
+}
+.destacados2 {
+    width: 265px; height: 268.86px;
+    color: #3C2313; font-weight: 500; font-size: 15px; line-height: 18px;
+}
+h2 {
+    color: #3C2313; text-align: center; font-size: 25px; line-height: 29px;
+}
+.formulario {
+    text-align: center; width: 340px; height: 264px;
+}
+.final {
+    background-color: #3C2313; width: 1024px; height: 284px;
+}
+#links {
+    text-align: center; width: 66px; height: 66px;
+}
+#logo2 {
+    width: 166px; height: 23px; right: 236px;  top: 1636px;
+}
+.footer {
+    background-color: #222222;
+    width: 1024px; height: 20px; bottom: 0px;
+}
+#derechos {
+    color: #FFFFFF; font-weight: bold; font-size: 10px; line-height: 12px; text-align: center;
+}
