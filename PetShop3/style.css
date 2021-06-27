@@ -265,22 +265,23 @@
 }
 .cont-final {
   background-color: #3c2313;
-  height: 284px;
   position: relative;
+  height: 284px;
+  display: flex;
 }
 .iconos {
-  background-color: aqua;
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
   width: 66px;
-  height: 66px;
+  padding: 0 0 0 70px;
 }
 .cont-localidad {
-  background-color: yellow;
   display: flex;
   flex-direction: column;
-  height: 66px;
-  width: 120px;
+  justify-content: space-around;
+  padding: 0 0 0 25px;
+  width: 170px;
 }
 .cont-localidad h3 {
   font-style: normal;
@@ -299,6 +300,7 @@
 .logo2 {
   position: absolute;
   right: 70px;
+  top: 127px;
 }
 footer {
   background-color: #222222;
@@ -308,4 +310,8 @@ footer {
   line-height: 12px;
   color: #ffffff;
   text-align: center;
+  height: 20px;
+}
+footer p {
+  padding: 4px;
 }
