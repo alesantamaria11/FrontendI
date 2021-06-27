@@ -91,6 +91,7 @@ button {
     line-height: 18px;
     text-align: center;
     border: none;
+    cursor: pointer;
 }
 /*No supe hacer que me tomara el margen, así que usé una clase*/
 .ver_mas {
