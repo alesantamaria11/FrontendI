@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+input {
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+}
+/*header====================================*/
+.productos {
+  background: #1cd1b0;
+  height: 23px;
+}
+.productos p {
+  padding-top: 2px;
+  margin-left: 20px;
+  font-size: 15px;
+}
+.nombre {
+  display: flex;
+  background: #00669f;
+  height: 80px;
+}
+.nombre img {
+  width: 100px;
+}
+.nombre p {
+  color: rgb(255, 255, 255);
+  margin-top: 23px;
+  margin-left: 20px;
+  font-size: 30px;
+}
+/*main====================================*/
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login {
+  width: 622px;
+  margin-top: 70px;
+}
+
+.login h2 {
+  font-size: 50px;
+  margin-bottom: 50px;
+  font-weight: bold;
+}
+
+.login input,
+select,
+textarea {
+  display: block;
+  width: 620px;
+  height: 60px;
+  margin-bottom: 20px;
+  border: 1px solid black;
+  padding: 0 20px;
+  font-size: 20px;
+}
+
+.login textarea {
+  height: 250px;
+}
+
+.login .botones {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 192px;
+}
+
+.login .btn-reset {
+  display: block;
+  width: 300px;
+  border: none;
+  height: 53px;
+  background: #888888;
+  color: white;
+  border-radius: 23px;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 60px;
+}
+
+.login .btn-submit {
+  display: block;
+  width: 300px;
+  border: none;
+  height: 53px;
+  background: #1cd1b0;
+  border-radius: 23px;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 60px;
+}
+
+.login p {
+  text-align: center;
+  font-size: 22px;
+  margin-top: 20px;
+}
+.login span {
+  color: #00669f;
+}
+
+/*footer====================================*/
+footer {
+  position: relative;
+  background: #00669f;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  height: 61px;
+}
+footer p {
+  position: absolute;
+  color: #FFF9F9;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  left: 350px;
+  top: 20px;
+}
