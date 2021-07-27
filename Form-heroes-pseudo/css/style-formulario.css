@@ -1,0 +1,148 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "Inter", sans-serif;
+}
+a {
+	text-decoration: none;
+}
+
+/* Estilos header*/
+.discount-bar {
+	background-color: #1cd1b0;
+	height: 23px;
+	position: relative;
+}
+.discount-bar p {
+	position: absolute;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 18px;
+	text-align: center;
+	color: #000000;
+	left: 20px;
+	top: 2px;
+}
+.title-bar {
+	background-color: #00669f;
+	height: 80px;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	position: relative;
+}
+.title-bar h1 {
+	position: absolute;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	line-height: 35px;
+	text-align: center;
+	color: #ffffff;
+	left: 129px;
+	top: 27px;
+}
+.title-bar img {
+	position: absolute;
+	left: 10px;
+	top: 3px;
+}
+.links {
+	background: #001d2d;
+	height: 40px;
+}
+.links a {
+	color: white;
+	float: right;
+	padding: 9px;
+}
+
+/* Estilos contenedor */
+.contenedor {
+	height: 832px;
+	width: 954px;
+	background-color: #00669f;
+	box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.3);
+	border-radius: 49.0901px;
+	margin: 40px auto;
+}
+
+.contenedor-interno {
+	display: flex;
+	flex-direction: column;
+	width: 80%;
+	height: 832px;
+	/* background-color: #98ac06; */
+	margin: 0 auto;
+}
+
+/* Estilos para el contenedor 1 */
+.cont1 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.cont1 h2 {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 72px;
+	text-align: center;
+	color: #fbfffd;
+}
+
+.cont1 p {
+	font-style: normal;
+	font-weight: 300;
+	font-size: 20px;
+	line-height: 14px;
+	color: #ffffff;
+	margin-bottom: 20px;
+}
+
+/*Estilos para el contenedor 2 */
+.cont-secciones {
+	display: flex;
+  justify-content:space-between;
+	width: 100%;
+	height: 102px;
+}
+
+.cont-ne{
+	width: 49%;
+}
+
+.cont-ne form{
+	display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.cont-ne form label{
+  color: white;
+  margin-bottom: 15px;
+}
+
+.cont-ne form input{
+  width: 100%;
+  height: 63px;
+  border: none;
+}
+
+.input-border input{
+
+  border-radius: 15px;
+}
+
+
+.input-file input{
+margin-top: 20px;
+}
+
+
+
+
+
+
+
+/* Estilos contenedor 3 */

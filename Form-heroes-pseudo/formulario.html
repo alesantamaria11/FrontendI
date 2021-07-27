@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- head de la página -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/aade8c0006.js" crossorigin="anonymous"></script>
+    <link href="img/DC_Comics_logo.svg.png" rel="icon">
+    <link rel="stylesheet" href="css/style-formulario.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>E-commerce</title>
+</head>
+<body>
+    <header>
+        <div class="discount-bar">
+            <p>20% de descuento en todos los productos!</p>
+        </div>
+        <div class="title-bar">
+            <img src="img/tienda.png" alt="Logo de la tienda">
+            <h1>Nombre Tienda</h1>
+        </div>
+        <div class="links">
+            <a href="login.html">Ingresar</a>
+            <a href="register.html">Registrarme</a>
+            <a href="contacto.html">Contacto</a>
+        </div>
+    </header>
+    <main>
+        <div class="contenedor">
+            <div class="contenedor-interno">
+
+                <div class="cont1">
+                    <h2>¡Añadí tu super!</h2>
+                    <p>Agregá tu personaje favorito completando las opciones</p>
+                </div>
+
+                <div class="cont-secciones">
+                    <div class="cont-ne input-border">
+                        <form action="/login" method="POST">
+                            <label for="nombre">*Nombre</label>
+                            <input type="text" id="nombre" placeholder="Nombre">
+                        </form>
+                    </div>
+
+                    <div class="cont-ne  input-border">
+                        <form action="/login" method="POST">
+                            <label for="especie">*Especie</label>
+                            <input type="text" id="especie" placeholder="Especie">
+                        </form>
+                    </div>
+                </div>
+
+                <div class="cont-secciones">
+                    <div class="cont-ne input-border">
+                        <form action="/login" method="POST">
+                            <label for="fecha">*Fecha</label>
+                            <input type="date" id="fecha">
+                        </form>
+                    </div>
+
+                    <div class="cont-ne input-file">
+                        <form class="form-file" action="/login" method="POST">
+                            <label for="file">Agregar Foto</label>
+                            <input type="file" id="file">
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        </div>
+    </main>
+    <footer>
+        <P>Todos los derechos reservados a FRONT END 1</P>
+    </footer>
+</body>
+
+</html>
