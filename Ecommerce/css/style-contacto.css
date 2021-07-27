@@ -42,6 +42,7 @@ main {
 .login {
   width: 622px;
   margin-top: 70px;
+  margin: 248px auto;
 }
 
 .login h2 {
